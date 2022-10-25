@@ -1244,7 +1244,6 @@
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
     justify-content: space-between;
-    margin-bottom: 7px;
   }
 
   .step {
@@ -1706,7 +1705,6 @@
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
     justify-content: space-between;
-    margin-bottom: 7px;
   }
 
   .step {
@@ -2173,7 +2171,7 @@
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
     justify-content: space-between;
-    margin-bottom: 7px;
+    margin-bottom: 16px;
   }
 
   .step {
