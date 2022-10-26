@@ -26,6 +26,10 @@
     line-height: 24px;
   }
 
+  .about-us__img--self {
+    width: 100%;
+  }
+
   .our-steps__content {
     min-height: 599px;
   }
@@ -52,6 +56,8 @@
     margin-right: 0;
     margin-bottom: 32px;
     width: 100%;
+    flex-direction: column;
+    justify-content: flex-end;
   }
 
   .about-us__infoblock {
