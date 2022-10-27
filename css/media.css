@@ -1,6 +1,11 @@
 @media (max-width: 1600px) {
+  .nav__item:not(:last-child) {
+    padding-right: 5.36rem;
+  }
+
   .header__nav {
-    width: 48.75%;
+    display: flex;
+    max-width: 720px;
   }
 
   .footer__right {
@@ -14,10 +19,6 @@
   .project__title {
     font-size: 60px;
     line-height: 73px;
-  }
-
-  .header-form {
-    top: 2px;
   }
 
   .project__subtitle {
@@ -86,6 +87,11 @@
 }
 
 @media (max-width: 1366px) {
+
+  .nav__item:not(:last-child) {
+    padding-right: 3.36rem;
+  }
+
   .promo-btn {
     position: relative;
     padding: 19px 38px;
@@ -93,26 +99,9 @@
     line-height: 19px;
   }
 
-  .header__nav {
-    width: 57.75%;
-  }
-
   .project__text {
     width: 71%;
     padding-top: 64px;
-  }
-
-  .nav__item:not(:last-child) {
-    margin-right: 56px;
-  }
-
-  /* .nav__item:nth-child(1) {
-    margin-right: 0;
-  } */
-
-  .header-form {
-    top: -7px;
-    right: 11px;
   }
 
   .about-us {
@@ -307,7 +296,7 @@
   }
 
   .header-form {
-    top: -30px;
+    top: -43px;
     right: -44px;
   }
 
