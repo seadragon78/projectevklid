@@ -132,7 +132,6 @@ body {
 /* ШАПКА */
 
 .header {
-  padding: 13px 0;
   margin-bottom: 48px;
   border-radius: 0px 0px 32px 32px;
   background: var(--color-light);
@@ -141,8 +140,11 @@ body {
 }
 
 .form-container {
+  position: absolute;
+  top: 12px;
   width: 0;
   height: 0;
+  right: 0;
 }
 
 .header-form {
@@ -166,10 +168,6 @@ body {
   -o-transition: all 1s ease;
   transition: all 1s ease;
   cursor: default;
-}
-
-.nav__item:nth-child(1) {
-  margin-right: 0;
 }
 
 .form--active {
@@ -229,6 +227,8 @@ body {
 
 .header__container {
   position: relative;
+  padding-top: 13px;
+  padding-bottom: 13px;
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between;
@@ -292,18 +292,9 @@ body {
     -webkit-transform 0.3s ease-in-out;
 }
 
-.logo {
-  margin-right: auto;
-}
-
 .header__nav {
-  width: 23.75%;
-}
-
-.nav__list {
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+  display: flex;
+  max-width: 417px;
 }
 
 .header__btn {
@@ -312,16 +303,11 @@ body {
   height: 24px;
   margin: 0;
   padding: 0;
-  margin-left: auto;
   z-index: 2;
 }
 
 .nav__item:not(:last-child) {
-  margin-right: 85px;
-}
-
-.nav__item:last-child {
-  margin-right: 85px;
+  padding-right: 5.36rem;
 }
 
 .nav__link {
