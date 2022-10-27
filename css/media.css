@@ -1,11 +1,7 @@
 @media (max-width: 1600px) {
-  .nav__item:not(:last-child) {
-    padding-right: 5.36rem;
-  }
-
   .header__nav {
-    display: flex;
-    max-width: 720px;
+    max-width: 546px;
+    margin-right: 3.25rem;
   }
 
   .footer__right {
@@ -87,11 +83,6 @@
 }
 
 @media (max-width: 1366px) {
-
-  .nav__item:not(:last-child) {
-    padding-right: 3.36rem;
-  }
-
   .promo-btn {
     position: relative;
     padding: 19px 38px;
